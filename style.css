@@ -1,0 +1,193 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    justify-content: center;
+}
+@media (min-width: 990px){
+    .apply-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 990px){
+    .applyx-btn {
+        display: none;
+    }
+}
+
+/* Sections */
+.c1 {
+    width: 1100px;
+}
+
+.c2 {
+    margin-top: 45px;
+    padding-bottom: 50px;
+    max-width: 1150px;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 25px;
+}
+
+.c4 {
+    max-width: 1150px;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 25px;
+}
+
+.c5, .s1-c2 {
+    background-color: #F2F2F2;
+}
+
+.c2-psmall {
+    color: #1892f7;
+    font-size: 18px;
+}
+
+.c3-main-text {
+    font-size: 65px;
+}
+
+/* Gradient */
+
+.gradient-text {
+    background: linear-gradient(92deg, rgb(33, 126, 230) 3%, rgb(49, 135, 213) 44%, rgb(105, 167, 152) 70%, rgb(252, 242, 166) 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon {
+    width: 67px;
+}
+
+/* css reset */
+
+.fs-xx1 {
+    font-size: 64px;
+}
+
+.fs-x1 {
+    font-size: 59.2px;
+}
+
+.fs-x2 {
+    font-size: 57px;
+    color: #1892f7;
+}
+
+.fs-x3 {
+    font-size: 48px;
+}
+
+.fs-x4 {
+    font-size: 35px;
+    color: #1892f7;
+}
+
+.fs-x5 {
+    font-size: 25.6px;
+    color: #696969;
+}
+
+.fs-x6{
+    font-size: 18px;
+}
+
+
+.s1-date {
+    font-size: 14px;
+    color: #696969;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.s1-title {
+    font-size: 17px;
+    color: #757575;
+    width: 95%;
+}
+
+.btn-primary {
+    background-color: #1892f7;
+    border: none;
+}
+
+.s1-c2 {
+    margin-top: 70px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.s1-c3 {
+    padding-bottom: 50px;
+    max-width: 1150px;
+}
+
+.s3-banking-partners {
+    width: 30%;
+}
+
+@media (max-width: 750px){
+    .s3-banking-partners{
+        width: 90%;
+    }
+}
+
+.s1-c3 .card-img-top {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #0C161B;
+}
+
+footer button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 13px 60px;
+}
+
+footer button i {
+    background-color: black;
+    border: none;
+    color: #ff0505;
+    margin: 2px;
+}
+
+.f-items h5 {
+    margin-top: 30px;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.f-items li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.f-items li a:hover {
+    color: white;
+}
+
+.certificate img {
+    width: 50px;
+}
